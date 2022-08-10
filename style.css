@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #E5E7EB;
+    position: relative;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#dashboard{
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 12% 90%; */
+}
+#menu{
+    background:black ;
+    padding: 0 10px;
+    width: 10%;
+    width: max-content;
+    height:100vh;
+ 
+}
+#menu .logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 30px 3px 3px 0px;
+}
+#menu .items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 15px 0;
+    
+}
+#menu .items li {
+    
+    margin-bottom: 20px;
+    
+
+}
+#menu .items li:hover{
+    
+    background: #253047;
+    cursor: pointer;
+
+}
+/* #menu .items li:nth-child(1){
+    
+   border-left: 4px solid #ffff;
+
+} */
+#menu .items li i{
+    width: 30px;
+    height: 30px;
+    /* line-height: 60px; */
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0px 0 0px;
+    color: white;
+
+}
+
+#menu .items li:first-of-type{
+   border-radius: 10%;
+   padding: 4px 6px;
+   background-color: cadetblue;
+}
+#menu .items li:hover {
+   border-radius: 50%;
+   padding: 4px;
+   background-color: cadetblue;
+   color: white;
+}
+
+/* main section style */
+.main{
+    margin-left: 10px;
+}
+.allBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 30px;
+    
+
+
+}
+.allBox .box{
+    background: white;
+    padding: 20px 60px;
+    border-radius: 20px;
+
+
+}
+.allBox .box .box_inner{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.allBox .box .box_inner .box_inner_first{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+.box_inner_icon{
+    font-size: 20px;
+    background-color: rgba(95, 158, 160, 0.436);
+    padding: 10px 10px;
+    border-radius: 6px;
+}
+.user_activity{
+    margin-top: 50px;
+}
+.user_activity_inner{
+    display: flex;
+    margin-top: 10px;
+    gap: 50px;
+}
+.user_activity_inner .user_activit_second{
+display: flex;
+
+}
+
+/*chart style */
