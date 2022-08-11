@@ -100,7 +100,37 @@ a.active {
    background-color: cadetblue;
    color: white;
 }
-
+.items_notification{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 190px;
+    gap: 20px;
+}
+.menu_notification_icon{
+    width: 30px;
+    height: 30px;
+    /* line-height: 60px; */
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0px 0 0px;
+    color: white;
+   
+}
+.menu_notification_img{
+    width: 35px;
+    height: 35px;
+    /* line-height: 60px; */
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0px 0 0px;
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
+    border:2px solid white;
+   
+}
 /* main section style */
 .main{
 
@@ -156,6 +186,7 @@ a.active {
 .user_activity_button_container{
     display: flex;
     justify-content: space-between;
+    
 }
 .user_activity_inner{
     display: flex;
@@ -195,7 +226,7 @@ canvas#chart{
     grid-template-columns: repeat(4,1fr);
     justify-content: space-around;
     flex: auto;
-    gap: 5px;
+    gap: 30px;
     /* flex-wrap: wrap; */
 }
 

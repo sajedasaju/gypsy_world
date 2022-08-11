@@ -1,24 +1,29 @@
 const data = [
     {
         img: 'https://image.shutterstock.com/image-vector/avatar-modern-young-guy-working-600w-2015853842.jpg',
-        name: 'Jon Doe',
+        name: 'Benny Chagur',
         time: '10 hrs'
     },
     {
-        img: 'https://image.shutterstock.com/image-vector/avatar-modern-young-guy-working-600w-2015853842.jpg',
-        name: 'Jon Doe',
-        time: '10 hrs'
+        img: 'https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_960_720.png',
+        name: 'Chynita Heree',
+        time: '16 hrs'
     },
     {
-        img: 'https://image.shutterstock.com/image-vector/avatar-modern-young-guy-working-600w-2015853842.jpg',
-        name: 'Jon Doe',
-        time: '10 hrs'
+        img: 'https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_960_720.png',
+        name: 'David Yers',
+        time: '15 hrs'
     },
     {
-        img: 'https://image.shutterstock.com/image-vector/avatar-modern-young-guy-working-600w-2015853842.jpg',
-        name: ' Doe',
+        img: 'https://cdn.pixabay.com/photo/2017/02/23/13/05/avatar-2092113_960_720.png',
+        name: 'Hayder Jahid',
+        time: '14 hrs'
+    },
+    {
+        img: 'https://cdn.pixabay.com/photo/2014/03/24/17/19/teacher-295387_960_720.png',
+        name: 'Jhon Doe',
         time: '10 hrs'
-    }
+    },
 ]
 const container = document.getElementById('most_active_main');
 
